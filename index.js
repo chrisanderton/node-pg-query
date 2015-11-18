@@ -1,7 +1,7 @@
 //peerDependency - use whichever version is installed
 //in the project
 try {
-  var pg = require('pg');
+  var pg = require('pg').native;
 } catch(e) {
   try {
     var pg = require('pg.js');
